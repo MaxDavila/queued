@@ -11,7 +11,8 @@ module Rdio
   def query(song)
     consumer = self.new
     song = URI.encode(song)
-    resp = consumer.request(:post, '/1/search', nil, {}, "method=search&query=#{song}&types=tracks&count=25", { 'Content-Type' => 'application/x-www-form-urlencoded' })
+    resp = consumer.request(:post, '/1/search', nil, {}, "method=search&query=#{song}&types=tracks&count=25", 
+                            { 'Content-Type' => 'application/x-www-form-urlencoded' })
     resp.body
   end
 end
