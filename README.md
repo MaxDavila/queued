@@ -1,4 +1,4 @@
-# Qd-fm
+# (Qd-fm)[http://qd-fm.herokuapp.com/]
 
 Crowdsource your next party playlist with qd.fm. 
 Create a private party, share it with friends, add songs and vote on priority in real-time. 
